@@ -10,6 +10,8 @@ Seiri is an Open Source Project Management System which is a web-based tool desi
   
  Seiri is an Open Source Project Management System which is a web-based tool designed for managing projects, tasks and resources. This project management system is designed to be open source, customizable, and easy to use. It is aimed at small to medium-sized organizations that need a simple yet powerful project management tool.
  
+ TEAM MEMBERS - Saurav M Sudhish, Atul Abraham Joseph, Elias Biju, Adarsh N
+ 
              TIMELINE
   
 Initial stage - The project was built from scratch at the venue, we had submitted the idea in advance and had a vague plan on how to execute it. The plan was solidified at the venue, where its execution began.
