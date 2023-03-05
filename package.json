@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "dojo-blog",
   "version": "0.1.0",
   "private": true,
@@ -35,5 +36,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "foss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.21"
+>>>>>>> 1afa51e1e4cc4923aea3afa9811e6830b3aacceb
   }
 }

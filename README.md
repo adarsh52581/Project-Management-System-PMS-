@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# -Seiri
+Seiri is an Open Source Project Management System is a web-based tool designed for managing projects, tasks, and resources. This project management system is designed to be open source, customizable, and easy to use. It is aimed at small to medium-sized organizations that need a simple yet powerful project management tool.
+>>>>>>> 1afa51e1e4cc4923aea3afa9811e6830b3aacceb
