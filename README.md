@@ -18,6 +18,6 @@ Initial stage - The project was built from scratch at the venue, we had submitte
  
 Current Stage - Backend and design has been successfully completed. Due to shortage of time we couldn't implement the frontend completely.
  
-We implemented the backend using MERN stack and the design was finalised using Figma. We were  implementing frontend of our webapp using ReactJS, while we encountered several errors. Currently we are working to solve the errors.
+We implemented the backend using MERN stack and the design was finalised using Figma. We were implementing frontend of our webapp using ReactJS, while we encountered several errors. Currently we are working to solve the errors.
  
-The backend is working smoothly, but the frontend implementation phase encountered numerous errors and we are constantly trying to solve them one by one.
+The backend is working smoothly, but we couldn't implement the frontend completely.
