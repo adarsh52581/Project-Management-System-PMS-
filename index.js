@@ -27,6 +27,10 @@ const collection_structure = new Schema({
     type: Boolean,
     default: false
   },
+  wip: {
+    type: Boolean,
+    default:false
+  },
   taskid: {
     type: Number,
     require: true
@@ -54,15 +58,27 @@ app.post('/new', async (req, res) => {
     })
 })
 
+//start working on task
+app.post('/work/:taskid', async(req, res) => {
+    const tid = req.params.taskid
+    collections.updateOne({taskid:tid}, {$set: {wip: true}}).then((ans) => res.json(ans))
+})
+
 //complete a task
 app.post('/complete/:taskid', async (req, res) => {
     const tid = req.params.taskid
-    collections.updateOne({taskid:tid}, {$set: {complete: true}}).then((ans) => res.json(ans))
+    collections.updateOne({taskid:tid}, {$set: {complete: true, wip: false}}).then((ans) => res.json(ans))
 })
+
 
 //list all incomplete tasks
 app.get('/incomplete', async(req, res) => {
-    collections.find({complete: false}).then((ans) => res.json(ans))
+    collections.find({complete: false, wip: false}).then((ans) => res.json(ans))
+})
+
+//list all tasks in progress
+app.get('/inprogress', async(req, res) => {
+    collections.find({complete: false, wip: true}).then((ans) => res.json(ans))
 })
 
 //list all completed tasks
